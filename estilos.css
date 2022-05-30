@@ -89,6 +89,31 @@ p {
     padding: 0px 20px;
 }
 
+@keyframes efecto {
+    0% {
+       background: gold;
+       width: 100%;
+    }
+    50% {
+        background: coral;
+        height: 130px;
+    }
+    100% {
+        background: orangered;
+        height: 130px;
+    }
+
+}
+
+.animate {
+    border: 1px solid #333;
+    animation-name: efecto;
+    animation-duration: 2.s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+
 @media (max-width: 576px) {
     /* INDEX */
     .flex-menu {
