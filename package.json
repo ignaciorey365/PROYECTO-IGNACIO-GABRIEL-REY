@@ -1,0 +1,26 @@
+{
+  "name": "proyecto-ignacio-gabriel-rey",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/estilos.scss css/style.css",
+    "watch-css":"nodemon -e scss -x \"npm run build-css\""
+  
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ignaciorey365/PROYECTO-IGNACIO-GABRIEL-REY.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ignaciorey365/PROYECTO-IGNACIO-GABRIEL-REY/issues"
+  },
+  "homepage": "https://github.com/ignaciorey365/PROYECTO-IGNACIO-GABRIEL-REY#readme",
+  "dependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.16"
+  }
+}

@@ -1,0 +1,339 @@
+@charset "UTF-8";
+body {
+  background-color: black;
+  /* NO TENGO IDEA DE PORQUE ME BORRÓ LA IMAGEN DE FONDO */
+  /* ELEGÍ TU PC */
+  /* COMPONENTES */
+  /* NOSOTROS */
+  /* CONTACTO */ }
+  body h1 {
+    color: white; }
+  body * {
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+    box-sizing: border-box; }
+  body body {
+    background-color: whitesmoke;
+    font-family: sans-serif;
+    color: #333;
+    font-size: 1.2rem;
+    line-height: 1.4em;
+    margin: 0%;
+    background-image: url(./img/fondo.jpg); }
+  body .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  body .infoindex {
+    text-align: center;
+    color: #151313; }
+  body p {
+    margin-bottom: 1.6em; }
+  body .grid-gallery {
+    display: grid;
+    width: 80%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 30%;
+    padding-left: 9%;
+    margin-right: 180px; }
+  body .grid-gallery img {
+    width: 100%;
+    height: 150%;
+    object-fit: cover; }
+  body .grid-gallery img:first-child {
+    grid-column: 1/3;
+    grid-row: 1/3; }
+  body .grid-item:nth-child(2) {
+    grid-row-start: span 2; }
+  body .container {
+    max-width: 1200px;
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+    display: flex; }
+  body .container li {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px; }
+  body .flex-menu {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 35px; }
+  body .logo {
+    height: 110px;
+    margin-top: 10px; }
+  body .container-menu {
+    display: flex;
+    min-height: 70px;
+    background: gold;
+    color: white;
+    height: 130px;
+    width: 100%;
+    padding: 0px 20px; }
+  @media (max-width: 576px) {
+    body {
+      /* INDEX */
+      /* ELEGÍ TU PC */ }
+      body .flex-menu {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center; }
+      body .infoindex {
+        text-align: center; }
+      body .grid-gallery {
+        display: flex;
+        flex-wrap: wrap;
+        transition: all;
+        transition-duration: 2s;
+        margin-right: 40px;
+        width: 100%;
+        gap: 10px; }
+      body footer {
+        margin: 0 auto; }
+      body .foot {
+        text-align: center; }
+      body .container-footer {
+        display: flex;
+        width: 85%;
+        padding-left: 35px;
+        gap: 25px;
+        list-style: none; }
+      body .computadoras, body .computadoras img, body .computadoras-flex {
+        width: 100%;
+        padding: 1px;
+        margin: 20px auto;
+        transition: all;
+        transition-duration: 2s;
+        display: flex;
+        flex-wrap: wrap; }
+      body .info {
+        font-size: 18px;
+        transition-duration: 2s;
+        padding: 10px;
+        text-align: center;
+        color: white; }
+      body .info-tit {
+        color: white; }
+      body .flex-menu {
+        margin-top: 2px;
+        margin-left: 20px; } }
+  @media (min-width: 576px) and (max-width: 992px) {
+    body {
+      /* INDEX */
+      /* ELEGÍ TU PC */ }
+      body .infoindex {
+        text-align: center; }
+      body .grid-gallery {
+        padding-left: 210px; }
+      body .container-footer {
+        display: flex;
+        width: 85%;
+        padding-left: 100px;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+        list-style: none; }
+      body .computadoras, body .computadoras img, body .computadoras-flex {
+        padding: 1px;
+        width: 100%;
+        transition: all;
+        transition-duration: 2s; }
+      body .info {
+        padding: 10px;
+        font-size: 18px;
+        transition-duration: 2s;
+        text-align: center;
+        color: white; }
+      body .info-tit {
+        color: white; } }
+  @media (min-width: 992px) {
+    body {
+      /* INDEX */
+      /* ELEGÍ TU PC */ }
+      body main, body .container {
+        width: 100%; }
+      body .grid-gallery {
+        width: 80%; }
+      body .container-footer {
+        display: flex;
+        width: 85%;
+        max-width: 880px;
+        padding-left: 250px;
+        gap: 25px;
+        margin: 0 auto;
+        text-decoration: none;
+        list-style: none; }
+      body .infoindex {
+        font-size: 20px; }
+      body .computadoras, body .computadoras img, body .computadoras-flex {
+        padding: 1px;
+        width: 100%;
+        transition: all;
+        transition-duration: 2s; }
+      body .info {
+        padding: 10px;
+        font-size: 23px;
+        transition-duration: 2s;
+        text-align: center;
+        color: white; }
+      body .info-tit {
+        color: white; } }
+  body nav {
+    height: 100%; }
+  body nav > ul {
+    height: 100%;
+    display: flex; }
+  body nav > ul > li {
+    height: 100%;
+    list-style: none;
+    position: relative; }
+  body nav > ul > li > a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: black;
+    transition: all 300ms ease; }
+  body nav > ul > li > a:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.5); }
+  body nav ul li ul {
+    width: 150px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background: whitesmoke;
+    position: absolute;
+    top: 90px;
+    left: -10px;
+    padding: 14px 0px;
+    visibility: hidden;
+    opacity: 0;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.5);
+    z-index: 10;
+    transition: all 300ms ease; }
+  body .footer {
+    background-color: lightgray;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column; }
+  body .foot {
+    width: 85%;
+    max-width: 880px;
+    margin: auto;
+    text-align: center;
+    list-style: none; }
+  body .computadoras-flex {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    margin: auto; }
+  body .computadoras {
+    background-color: crimson;
+    color: whitesmoke;
+    border: 3px solid  black;
+    padding: 2px; }
+  body .computadoras img {
+    width: 100%; }
+  body .info {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center; }
+  body h2 {
+    color: whitesmoke; }
+  body h3 {
+    text-align: center;
+    font-size: 25px;
+    color: whitesmoke;
+    top: 50%;
+    bottom: 50%; }
+  body table {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    background-color: white; }
+  body td, body th {
+    border: 2px solid black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px; }
+  body th {
+    background-color: crimson;
+    color: white; }
+  body .comp-amd {
+    text-align: center; }
+  body .comp-int {
+    text-align: center; }
+  body .infonos {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    color: whitesmoke; }
+  body .comp {
+    padding: 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px; }
+  body .comp img {
+    width: 900px; }
+  body .mother {
+    width: 100%;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+  body .mother img {
+    width: 1200px; }
+  body .form-register {
+    width: 400px;
+    background: #243032;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: "calibri";
+    color: white;
+    box-shadow: 7px 13px 37px #000; }
+  body .form-register h4 {
+    font-size: 22px;
+    margin-bottom: 20px; }
+  body .controls {
+    width: 100%;
+    background-color: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: "calibri";
+    font-size: 18px;
+    color: white; }
+  body .form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 50px; }
+  body .form-register a:hover {
+    color: white;
+    text-decoration: underline; }
+  body .form-register .botons {
+    width: 100%;
+    background-color: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px; }
