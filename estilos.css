@@ -11,7 +11,7 @@ body {
     font-size: 1.2rem;
     line-height: 1.4em;
     margin: 0%;
-    background-image: url(./img/fondo.jpg);
+    background-image: url(/img/fondo.jpg)
 }
 
 .main {
@@ -287,7 +287,7 @@ nav ul li ul {
 
 
 .footer {
-    background-color: lightgray;
+    background-color:  gold;
     margin-top: 60px;
     display: flex;
     flex-direction: column;

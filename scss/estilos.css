@@ -1,0 +1,405 @@
+@charset "UTF-8";
+* {
+  padding: 0%;
+  margin: 0%;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.4em;
+  margin: 0%;
+  background-image: url(../img/fondo.jpg);
+}
+
+.galeria {
+  width: 63%;
+  margin: 0 auto;
+}
+
+p {
+  margin-bottom: 1.6em;
+}
+
+.container {
+  max-width: 1200px;
+  width: 85%;
+  max-width: 850px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container li {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
+}
+
+.flex-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 20px;
+  margin-top: 35px;
+}
+
+footer {
+  background-color: coral;
+}
+
+.infoindex, .foot {
+  color: white;
+}
+
+@media (max-width: 576px) {
+  /* INDEX */
+  .flex-menu {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .infoindex, .foot {
+    text-align: center;
+    font-size: 20px;
+  }
+  /* ELEGÍ TU PC */
+  .computadoras, .computadoras img, .computadoras-flex {
+    width: 100%;
+    padding: 1px;
+    margin: 20px auto;
+    -webkit-transition: all;
+    transition: all;
+    -webkit-transition-duration: 2s;
+            transition-duration: 2s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .info {
+    font-size: 18px;
+    -webkit-transition-duration: 2s;
+            transition-duration: 2s;
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
+  .info-tit {
+    color: white;
+  }
+  .flex-menu {
+    margin-top: 2px;
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 576px) and (min-width: 576px) and (max-width: 992px) {
+  /* INDEX */
+  .infoindex, .foot {
+    text-align: center;
+  }
+  .grid-gallery {
+    padding-left: 210px;
+  }
+  .footer {
+    padding: 1em 0;
+    text-align: justify;
+    position: absolute;
+    width: 100%;
+    text-decoration: none;
+  }
+}
+
+@media (max-width: 576px) {
+  /* ELEGÍ TU PC */
+  .computadoras, .computadoras img, .computadoras-flex {
+    padding: 1px;
+    width: 100%;
+    -webkit-transition: all;
+    transition: all;
+    -webkit-transition-duration: 2s;
+            transition-duration: 2s;
+  }
+  .info {
+    padding: 10px;
+    font-size: 18px;
+    -webkit-transition-duration: 2s;
+            transition-duration: 2s;
+    text-align: center;
+    color: white;
+  }
+  .info-tit {
+    color: white;
+  }
+}
+
+@media (max-width: 576px) and (min-width: 992px) {
+  /* INDEX */
+  .fondo {
+    background-image: url(../img/fondo.jpg);
+  }
+  main, .container {
+    width: 100%;
+  }
+  .grid-gallery {
+    width: 80%;
+  }
+  .container-footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 85%;
+    max-width: 880px;
+    padding-left: 250px;
+    gap: 25px;
+    margin: 0 auto;
+    text-decoration: none;
+    list-style: none;
+  }
+  .infoindex, .foot {
+    text-align: center;
+    font-size: 20px;
+  }
+  /* ELEGÍ TU PC */
+  .computadoras, .computadoras img, .computadoras-flex {
+    padding: 1px;
+    width: 100%;
+    -webkit-transition: all;
+    transition: all;
+    -webkit-transition-duration: 2s;
+            transition-duration: 2s;
+  }
+  .info {
+    padding: 10px;
+    font-size: 23px;
+    -webkit-transition-duration: 2s;
+            transition-duration: 2s;
+    text-align: center;
+    color: white;
+  }
+  .info-tit {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    list-style: none;
+    text-decoration: none;
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .foot {
+    width: 85%;
+    max-width: 880px;
+    margin: auto;
+    text-align: center;
+    list-style: none;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .container-footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    list-style: none;
+    text-decoration: none;
+    gap: 7px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0 auto;
+  }
+  /* ELEGÍ TU PC */
+  .computadoras-flex {
+    padding: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    gap: 5px;
+    margin: auto;
+  }
+  .computadoras {
+    background-color: crimson;
+    color: whitesmoke;
+    border: 3px solid  black;
+    padding: 2px;
+  }
+  .computadoras img {
+    width: 100%;
+  }
+  .info {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  h2 {
+    color: whitesmoke;
+  }
+  h3 {
+    text-align: center;
+    font-size: 25px;
+    color: whitesmoke;
+    top: 50%;
+    bottom: 50%;
+  }
+  /* COMPONENTES */
+  table {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    background-color: white;
+  }
+  td, th {
+    border: 2px solid black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  th {
+    background-color: crimson;
+    color: white;
+  }
+  .comp-amd {
+    text-align: center;
+  }
+  .comp-int {
+    text-align: center;
+  }
+  /* NOSOTROS */
+  .infonos {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    color: whitesmoke;
+  }
+  .comp {
+    padding: 120px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 15px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 100px;
+  }
+  .comp img {
+    width: 900px;
+  }
+  .mother {
+    width: 100%;
+    padding: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .mother img {
+    width: 1200px;
+  }
+  /* CONTACTO */
+  .form-register {
+    width: 400px;
+    background: #243032;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: "calibri";
+    color: white;
+    -webkit-box-shadow: 7px 13px 37px #000;
+            box-shadow: 7px 13px 37px #000;
+  }
+  .form-register h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  .controls {
+    width: 100%;
+    background-color: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: "calibri";
+    font-size: 18px;
+    color: white;
+  }
+  .form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 50px;
+  }
+  .form-register a:hover {
+    color: white;
+    text-decoration: underline;
+  }
+  .form-register .botons {
+    width: 100%;
+    background-color: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+  }
+}
+/*# sourceMappingURL=estilos.css.map */
