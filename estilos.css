@@ -17,12 +17,7 @@ body {
     color: #333;
     font-size: 1.2rem;
     line-height: 1.4em;
-    margin: 0;
-    padding: 0;
     background-image: url(./img/fondo.jpg);
-    
-
-
 }
 
 .main {
@@ -60,8 +55,6 @@ p {
     .infoindex {
         text-align: center;
     }
-
-    
 
     /* ELEGÍ TU PC */
     .info {
@@ -134,6 +127,11 @@ p {
     
     .info-tit {
         color: white;
+    }
+
+    .footer-basic {
+        position: fixed;
+        bottom: 0;
     }
 }
 
@@ -273,4 +271,6 @@ h3 {
     color:black;
   }
   
-  
+  .cards {
+    bottom: 0;
+  }
