@@ -4,11 +4,9 @@
     text-decoration: none;
     box-sizing: border-box;
 }
-
 html {
     height: 100%;
 }
-
 body {
     display: flex;
     flex-direction: column;
@@ -19,7 +17,6 @@ body {
     line-height: 1.4em;
     background-image: url(./img/fondo.jpg);
 }
-
 .main {
     display: flex;
     flex-direction: column;
@@ -33,7 +30,6 @@ body {
 p {
     margin-bottom: 1.6em;
 }
-
 /* INDEX */
 #galeria .col-lg-4 {
     margin: 0 !important;
@@ -67,6 +63,11 @@ p {
     .info-tit {
         color: white;
     }
+    .footer-basico {
+        position: fixed;
+        bottom: 0;
+    }
+
 }
 
 
@@ -76,7 +77,7 @@ p {
         text-align: center;
     }
     
-
+    
 /* ELEGÍ TU PC */
   
 .info {
@@ -89,7 +90,10 @@ p {
 .info-tit {
     color: white;
 }
-
+.footer-basico {
+    position: fixed;
+    bottom: 0;
+}
 }
 
 @media (min-width: 992px) {
@@ -101,16 +105,6 @@ p {
     } 
     .galeria {
         width: 80%;
-    }
-    .container-footer {
-        display: flex;
-        width: 81%;
-        max-width: 880px;
-        padding-left: 275px;
-        gap: 25px;  
-        text-decoration: none;
-        list-style: none;
-        margin: 0 auto;
     }
     .infoindex {
         font-size: 20px;
@@ -159,7 +153,7 @@ h3 {
 
 .tabla {
     background-color: white;
-
+    color: blue;
 }
 
 .tit-comp {
@@ -271,6 +265,42 @@ h3 {
     color:black;
   }
   
-  .cards {
-    bottom: 0;
+  /* FOOTER NOSOTROS */
+  .footer-basico {
+    background-color: gold;
+    color:lightslategrey;
+    width: 100%;
+    height: 75px;
+    
+  }
+  
+  .footer-basico .social {
+    text-align:center;
+    margin-bottom: 5px;
+    padding-top: 5px;
+
+  }
+  
+  .footer-basico .social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin:0 8px;
+    color:inherit;
+    opacity:0.75;
+  }
+  
+  .footer-basico .social > a:hover {
+    opacity:0.9;
+  }
+  
+  .footer-basico .copyright {
+    text-align:center;
+    font-size:15px;
+    color:black;
   }
