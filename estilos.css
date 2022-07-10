@@ -48,28 +48,10 @@ p {
 
 @media (max-width: 576px) {
     /* INDEX */
-    .flex-menu {
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-    }
     .infoindex {
         text-align: center;
     }
-    
-    footer {
-        margin: 0 auto;
-    }
-    .foot {
-       text-align: center;
-    }
-    .container-footer {
-    display: flex;
-    width: 85%;
-    padding-left: 70px;
-    gap: 25px;
-    list-style: none;
-    }
+
     
 
     /* ELEGÍ TU PC */
@@ -83,16 +65,6 @@ p {
     .info-tit {
         color: white;
     }
-    .flex-menu {
-        margin-top: 2px;
-        margin-left: 20px;
-    }
-    /* NOSOTROS */
-    .mother {
-        width: 100%;
-        
-    }
-
 }
 
 
@@ -101,18 +73,7 @@ p {
     .infoindex {
         text-align: center;
     }
-    .grid-gallery {
-        padding-left: 210px;
-    }
-    .container-footer {
-        display: flex;
-        width: 85%; 
-        padding-left: 100px;
-        gap: 20px;
-        align-items: center;
-        justify-content: center;
-        list-style: none;
-    }
+    
 
 /* ELEGÍ TU PC */
   
@@ -189,14 +150,13 @@ h3 {
 
 /* COMPONENTES */
 
-.tabla { 
-    background-color: whitesmoke;
-    
-    
+.tabla {
+    background-color: white;
+
 }
 
 .tit-comp {
-    color: whitesmoke;
+    color: white;
     text-align: center;
     padding: 22px;
 }
